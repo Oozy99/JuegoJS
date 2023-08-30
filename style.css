@@ -58,4 +58,82 @@ button{
    
 }
 
+#contenedor-contadores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 5;
+    width: 100%;
+    padding: 180px;
+    
+    
+}
+
+#jugador-contador {
+    order: 1; 
+    font-size: 28px;
+    background-color: #171e41;
+    box-shadow:10px 5px 5px #131A40 ;
+    
+    
+}
+
+#maquina-contador {
+    order: 2; 
+    font-size: 28px;
+    background-color: #4E64A6;
+   
+    box-shadow:10px 5px 5px #131A40 ;
+ 
+}
+
+
+
+
+#eleccion-jugador {
+    order: 1; 
+    font-size: 18px;
+    background-color: #171e41;
+    box-shadow:10px 5px 5px #131A40 ;
+      width: 15%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 190px;
+      padding: 10px;
+      top: 45%;
+      
+    
+}
+
+#eleccion-maquina {
+    order: 2; 
+    font-size: 18px;
+    background-color: #4E64A6;
+    box-shadow:10px 5px 5px #131A40 ;
+      width: 15%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 125px;
+      padding: 10px;
+      top: 45%;
+ 
+}
+
+
+
+
+
+
+
+
 
